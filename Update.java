@@ -35,10 +35,10 @@ public class Update extends JFrame
 	Border blackLine;
 	public JPanel one, two, three, four, five, six, search;
 	
-	static final String DATABASE_URL = "jdbc:mysql://BONVANIE1-PC/materialpricelist";
+	static final String DATABASE_URL = "jdbc:mysql://localhost/materialpricelist";
 
-	String user = "root";	
-	String password = "Windows1";
+	String user = "user";	
+	String password = "password";
 	
 	private static Connection conn = null;
 	private static Statement stmt = null;
