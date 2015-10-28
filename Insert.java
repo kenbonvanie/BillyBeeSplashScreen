@@ -20,10 +20,10 @@ public class Insert extends JFrame
 	public JButton btnInsert, btnClearFields;
 	public JPanel one, two;
 
-	static final String DATABASE_URL = "jdbc:mysql://BONVANIE1-PC/materialpricelist";
+	static final String DATABASE_URL = "jdbc:mysql://localhost/materialpricelist";
 	
-	String user = "root";
-	String password = "Windows1";
+	String user = "user";
+	String password = "password";
 	
 	
 	private static Connection conn = null;
