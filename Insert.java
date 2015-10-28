@@ -21,7 +21,7 @@ public class Insert extends JFrame
 	public JPanel one, two;
 
 	static final String DATABASE_URL = "jdbc:mysql://localhost/materialpricelist";
-	
+	 
 	String user = "user";
 	String password = "password";
 	
